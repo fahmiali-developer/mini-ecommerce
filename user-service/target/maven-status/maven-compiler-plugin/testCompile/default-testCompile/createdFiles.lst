@@ -1,1 +1,2 @@
 com\fahmi\user\service\UserServiceApplicationTests.class
+com\fahmi\user\service\PasswordHashGeneratorTest.class

@@ -1,1 +1,12 @@
+com\fahmi\user\service\dto\ApiResponse.class
 com\fahmi\user\service\UserServiceApplication.class
+com\fahmi\user\service\service\AuthService.class
+com\fahmi\user\service\entity\Role.class
+com\fahmi\user\service\dto\LoginRequest.class
+com\fahmi\user\service\config\SecurityConfig.class
+com\fahmi\user\service\repository\UserRepository.class
+com\fahmi\user\service\entity\User.class
+com\fahmi\user\service\repository\RefreshTokenRepository.class
+com\fahmi\user\service\controller\AuthController.class
+com\fahmi\user\service\dto\LoginResponse.class
+com\fahmi\user\service\entity\RefreshToken.class

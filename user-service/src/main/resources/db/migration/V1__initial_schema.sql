@@ -61,3 +61,8 @@ CREATE TABLE refresh_tokens (
   KEY idx_refresh_user_expiry (user_id, expires_at),
   CONSTRAINT fk_refresh_user FOREIGN KEY (user_id) REFERENCES users(id)
 ) ENGINE=InnoDB;
+
+
+INSERT IGNORE INTO roles (code, name) VALUES
+  ('USER', 'Standard User'),
+  ('ADMIN', 'Administrator');
