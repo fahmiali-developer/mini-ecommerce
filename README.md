@@ -38,3 +38,7 @@ The initial tests are Spring context smoke tests. Add focused JUnit 5 / Mockito 
 - API Gateway routes are configured, but JWT validation/security filters are not implemented yet.
 - Each service has its own database schema. Services must not directly access another service's database.
 - This is a learning scaffold, not a production-ready deployment.
+| Promotion Service | 8088 | promotion_service_db |
+| Shipping Service | 8089 | shipping_service_db |
+| Review Service | 8090 | review_service_db |
+| Wishlist Service | 8091 | wishlist_service_db |
